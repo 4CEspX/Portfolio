@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@react-native-community/checkbox": "^0.5.16",
+    "md5": "^2.3.0",
+    "react-native-select-dropdown": "^3.4.0"
+  }
+}
