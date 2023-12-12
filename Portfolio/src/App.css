@@ -1,19 +1,140 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.bg
+{
+  background-image: url(/src/assets/images/Background.jpg);
+  background-size: cover;
+  width: 99vw;
+  height: 200vh;
+  -ms-grid-layer: 1;
+  position: fixed;
+  margin-top: -500px;
 }
 
 .appContainer {
-  background-color: rgb(240, 240, 240);
+  -ms-grid-layer: 2;
   position: absolute;
   text-align: left;
-  margin-left: calc(20% + 2vw);
+  margin-inline: calc(10%);
   width: calc(80% - 2vw);
   left: 0%;
+  margin-top: calc(-22vw + -500px);
+  height: 20vw;
+}
+.aboutContent
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 500px;
+  background-color: rgb(48, 48, 48);
+  padding-bottom: 2vw;
+  border-radius: 25px;
+}
+.div1
+{
+  margin-right: 100px;
+  padding-top: 40px;
+  padding-left: 50px;
+
+}
+.div2
+{
   text-align: center;
-  margin-top: -16.05vw;
+  margin-left: 5vw;
+}
+.image
+{
+  width: 15vw;
+  border-radius: 15px;
+}
+.projects
+{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-inline: 5vw;
+  margin-top: -100px;
+  width: 70vw;
+}
+.project1
+{
+  height: 13vw;
+  flex: 45%;
+  width: 10vw;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.34), 0 0 50px 10px rgba(100,100,100,0);
+  transition: transform 0.3s ease;
+}
+.project1:hover
+{
+  transform: scale(1.03);
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.5), 0 0 50px 10px rgba(100,100,100,0);
+}
+.project1:active {
+  transform: scale(0.95);
+}
+.project2
+{
+  height: 13vw;
+  flex: 45%;
+  width: 10vw;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  margin-top: -75px;
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.34), 0 17px 50px 10px rgba(100,100,100,0);
+  transition: transform 0.3s ease;
+}
+.project2:hover
+{
+  transform: scale(1.03);
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.5), 0 0 50px 10px rgba(100,100,100,0);
+}
+.project2:active {
+  transform: scale(0.95);
+}
+.project3
+{
+  height: 13vw;
+  flex: 45%;
+  width: 10vw;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  margin-top: -150px;
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.34), 0 17px 50px 10px rgba(100,100,100,0);
+  transition: transform 0.3s ease;
+}
+.project3:hover
+{
+  transform: scale(1.03);
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.5), 0 0 50px 10px rgba(100,100,100,0);
+}
+.project3:active {
+  transform: scale(0.95);
+}
+.project4
+{
+  height: 13vw;
+  flex: 45%;
+  width: 10vw;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  margin-top: -225px;
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.34), 0 17px 50px 10px rgba(100,100,100,0);
+  transition: transform 0.3s ease;
+}
+.project4:hover
+{
+  transform: scale(1.03);
+  box-shadow: 0 0 16px 10px rgba(100,100,100,0.5), 0 0 50px 10px rgba(100,100,100,0);
+}
+.project4:active {
+  transform: scale(0.95);
+}
+.empty
+{
+  height: 13vw;
+  flex: 50%;
+  width: 10vw;
+  margin-inline: 1vw;
 }
 
 .logo {
